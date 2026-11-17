@@ -97,5 +97,5 @@ The following paper provides context for a related mechanism; it is not evidence
 
 ---
 
-Documentation maintained by **✦ EricMingle69** · [Ming-Sir-69](https://github.com/Ming-Sir-69)  
+Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="readme-assets/em-logo-dark.svg"><img src="readme-assets/em-logo-light.svg" alt="EM" height="13"></picture> <b>EricMingle69</b> · <a href="https://github.com/Ming-Sir-69">Ming-Sir-69</a><br>
 Original documentation and cover artwork use the [documentation MIT license](readme-assets/PERSONAL-DOCUMENTATION-LICENSE.md); the original models, course PDF and model projections are outside that added license.
