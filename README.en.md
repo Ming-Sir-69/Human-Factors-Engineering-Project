@@ -14,20 +14,20 @@
 
 <p align="center"><a href="README.md">简体中文</a> · <b>English</b></p>
 
-# Human factors analysis and redesign of a roller soap box
+# Hands-free roller soap box: human factors analysis and redesign
 
-This course project examines water retention, support for soap fragments and grip in a roller soap box through structural analysis, design proposals and 3D models. The available materials comprise one course report and four 3MF model files.
+This course project examines water retention, support for soap fragments and grip in a roller soap box using a questionnaire, anthropometric analysis, mechanical estimates and grip impressions to develop proposals, followed by evaluation of design suitability, safety and reliability. The available materials comprise one course report and four 3MF model files.
 
 ## Overview
 
-The original structure consists of a shell, soap support platform, lathering rollers and a spring. The spring presses soap on the tray against four toothed silicone rollers; rolling friction transfers wet soap to the washing surface. The report covers product analysis, problem identification, design proposals and evaluation.<sup>[[1]](#references)</sup>
+The original structure consists of a shell, soap support platform, lathering rollers and a spring. The spring presses soap on the tray against four toothed silicone rollers; rolling friction transfers wet soap to the washing surface. The user holds the box and rolls it over the body to produce lather. The report covers product analysis, problem identification, design proposals and evaluation.<sup>[[1]](#references)</sup>
 
 ## Design highlights
 
 | Area | Structure and design decisions |
 |---|---|
 | Lathering and support | Four rollers work with a spring-loaded tray; the report proposes changes to roller diameter and spacing and replacement of the support spring. |
-| Drainage | The model shows curved slots; the report separately proposes a wavy base and rejects a single slope that takes up too much internal space. |
+| Drainage | The report adopts drainage holes positioned using the effective lengths of the middle, ring and little fingers, arranged with central symmetry along a diagonal to avoid obstruction during gripping, together with a wavy base and a fluorosilicone resin hydrophobic coating on the base. A single 22.62° slope would require about 3.71 cm of height and was rejected for lack of space. The curved slots in the model belong to another version. |
 | Grip | The report discusses shell shape, slip resistance and material feel. |
 | Soap-fragment positioning | An adaptive fractal tray was explored, then rejected in the report because of debris blockage and maintenance cost. |
 
@@ -52,7 +52,14 @@ Exploded view of the original model. The cover is a generated illustration based
 
 ## Method
 
-Read the structural and problem analysis in the course report, then compare the models with its design evaluation. The report discusses drainage layout, grip shape, roller and spring interaction, and the fractal support proposal.<sup>[[1]](#references)</sup>
+The course report uses the following design and evaluation methods.<sup>[[1]](#references)</sup>
+
+- **Needs and priorities**: a 17-question questionnaire informs the improvement order of water retention > grip feel > soap falling out. The report lists water retention at 70% and soap falling out at 56%, but does not state the questionnaire sample size.
+- **Dimensions and mechanical estimates**: finger dimensions inform drainage-hole positions, Bernoulli's equation estimates the slope angle, and Hooke's law calculates spring stiffness. Roller diameter changes from 1.25 cm to 1.4 cm.
+- **Grip shape**: modeling clay wrapped around the box records grip impressions from multiple people to determine the shell shape.
+- **Design evaluation**: proposals are scored for design suitability and for safety and reliability, with decisions classified as adopted, refined or rejected.
+
+Steps for opening and checking the materials:
 
 1. Download individual models from their file pages, or use Code → Download ZIP for the repository materials.
 2. Open the files in software that supports 3MF and check part relationships against the report.
@@ -77,7 +84,7 @@ The course report and models are retained as the design sources. The cover illus
 
 The following paper provides context for a related mechanism; it is not evidence that this project adopted or validated the method.
 
-- Barthlott, W., & Neinhuis, C. (1997). *Purity of the sacred lotus, or escape from contamination in biological surfaces*. Planta, 202, 1–8. [DOI](https://doi.org/10.1007/s004250050096). It examines surface microstructure, water repellency and particle adhesion, corresponding to the report's discussion of hydrophobic surfaces. Findings on plant surfaces do not replace material tests in soapy water.
+- Barthlott, W., & Neinhuis, C. (1997). *Purity of the sacred lotus, or escape from contamination in biological surfaces*. Planta, 202, 1–8. [DOI](https://doi.org/10.1007/s004250050096). It provides general mechanisms of hydrophobic surfaces through surface microstructure, water repellency and particle adhesion, and is only indirectly related to the hydrophobic coating discussed in the report. Findings on plant surfaces do not replace material tests in soapy water.
 
 ## Repository structure
 
